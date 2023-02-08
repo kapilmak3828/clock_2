@@ -13,8 +13,11 @@ const minindeg = ((minutes/60)*360) + 90;
 minhand.style.transform = `rotate(${minindeg}deg)`;
 
 const hour = now.getHours();
-const hourindeg = ((hour/60)*360) + 90;
+const hourindeg = ((hour/12)*360) + 90;
 hourhand.style.transform = `rotate(${hourindeg}deg)`;
+
+console.log(hour);
+console.log(hourindeg);
 
 
 clock.style.borderColor = `rgba(${Math.random() * 256}, ${Math.random() * 256}, ${Math.random() * 256} , 0.5)`;

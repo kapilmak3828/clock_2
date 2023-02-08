@@ -31,6 +31,13 @@ body{
     transform: translateY(-3px);
 }
 
+.clock-face .circle{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    position: relative;
+}
+
 .hand{
     width : 50%;
     height: 6px;
